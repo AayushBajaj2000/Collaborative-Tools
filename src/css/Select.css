@@ -1,0 +1,43 @@
+.app__TopLeft .MuiSelect-root {
+  background: white !important;
+  padding: 10px !important;
+  margin-right: 10px !important;
+  border-radius: 10px !important;
+  margin: 10px !important;
+  width: 110px !important;
+}
+.app__TopLeft .MuiInput-underline:before {
+  border-bottom: none !important;
+}
+.app__TopLeft .MuiInput-underline:after {
+  border-bottom: none !important;
+}
+.app__TopLeft .MuiInputBase-root {
+  cursor: default !important;
+}
+.app__TopLeft .MuiSelect-icon {
+  margin-left: 10px !important;
+  right: 10px !important;
+}
+.chatWidget .MuiFormControl-root {
+  min-width: 97px !important;
+  flex: 1;
+  border-right: none !important;
+}
+.chatWidget .MuiInputBase-root {
+  background-color: white !important;
+  padding: 3px !important;
+  flex: 1 !important;
+  margin: 0px !important;
+}
+.chatWidget .MuiButton-root .MuiSvgIcon-root {
+  fill: grey;
+  width: 1.5em;
+  height: 1.5em;
+}
+.chatWidget .MuiInput-underline:before {
+  border-bottom: none !important;
+}
+.chatWidget .MuiInput-underline:after {
+  border-bottom: none !important;
+}

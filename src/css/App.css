@@ -1,0 +1,217 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-y: hidden;
+}
+.remote-caret {
+  position: absolute;
+  border-left: black;
+  border-left-style: solid;
+  border-left-width: 2px;
+  height: 1.5em;
+}
+.remote-caret > div {
+  position: relative;
+  top: -1.05em;
+  font-size: 13px;
+  background-color: rgb(250, 129, 0);
+  font-family: serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  user-select: none;
+  color: white;
+  padding-left: 2px;
+  padding-right: 2px;
+  z-index: 3;
+}
+.MuiAppBar-colorDefault {
+  background-color: #212121 !important;
+  color: #c7c7c7 !important;
+}
+.PrivateTabIndicator-colorSecondary-5 {
+  background-color: white !important;
+}
+.app__roomLink {
+  margin: 30px;
+}
+.app__roomLink input {
+  width: 250px;
+  background: white;
+  padding: 6px;
+  height: 23px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.Main .MuiDivider-root {
+  height: 1px !important;
+  background-color: white !important;
+}
+.MuiBox-root {
+  padding: 5px !important;
+  margin-top: 47px !important;
+}
+.makeStyles-root-1 .MuiAppBar-positionStatic {
+  position: absolute !important;
+  top: 0px;
+}
+
+.flex__container {
+  display: flex;
+}
+/* .makeStyles-root-1 {
+  resize: both;
+  overflow: auto;
+} */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  border: none !important;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #bbbcbd;
+}
+.resizer {
+  height: 10px;
+  cursor: n-resize;
+  transition: 0.2s ease-in;
+}
+.resizer:hover {
+  background: #9185b9;
+  transition: 0.2s ease-in;
+}
+.app__bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: black;
+}
+.app__TopLeft {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  height: 15%;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  margin-top: 0;
+}
+.ReactCodeMirror {
+  height: 100%;
+  overflow-y: auto;
+}
+.fill {
+  margin: 0;
+  height: 100% !important;
+}
+#scrollable-auto-tabpanel-0 {
+  height: 95.5% !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain;
+  overflow-x: hidden;
+  position: relative !important;
+}
+#scrollable-auto-tabpanel-1 {
+  height: 95.5% !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain;
+  overflow-x: hidden;
+  position: relative !important;
+}
+.app__chatIcon {
+  position: absolute !important;
+  right: 10px;
+  top: 10px;
+  z-index: 1002;
+}
+.leftApp {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.rightApp {
+  position: relative;
+  width: 600px;
+  background-color: #051e34;
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  border: 1px solid black;
+}
+.rightApp-none {
+  width: 70px;
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.rightApp__text-show {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: calc(100% - 47px);
+  justify-content: flex-end;
+}
+.rightApp__none {
+  display: none !important;
+}
+.MuiButton-root .MuiSvgIcon-root {
+  fill: white;
+  width: 1.5em;
+  height: 1.5em;
+}
+.rightApp__topRow {
+  display: flex;
+  justify-content: space-between;
+}
+.chatWidget {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.chat__input {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 1px solid black !important;
+}
+.chat__show {
+  background: white;
+  color: black;
+  padding: 10px;
+  margin: 0px;
+  height: 100%;
+  max-height: calc(100vh - 120px);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.chat__show div div {
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 70px;
+  margin: 5px;
+  width: fit-content;
+}
+.chat__show-end {
+  color: black;
+}
+.chat__show-start {
+  color: black;
+}
+.show__name {
+  font-weight: bold;
+  margin-bottom: 5px !important;
+  text-transform: capitalize;
+}
+.show__message {
+  margin-top: 5px !important;
+}
+.MuiAvatar-root {
+  border: 1px solid black !important;
+}
