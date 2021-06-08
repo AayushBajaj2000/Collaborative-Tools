@@ -1,0 +1,342 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-y: hidden;
+}
+.remote-caret {
+  position: absolute;
+  border-left: black;
+  border-left-style: solid;
+  border-left-width: 4px;
+  height: 1.5em;
+}
+.remote-caret > div {
+  position: relative;
+  top: -1.05em;
+  font-size: 13px;
+  background-color: rgb(250, 129, 0);
+  font-family: serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  user-select: none;
+  color: white;
+  padding-left: 2px;
+  padding-right: 2px;
+  z-index: 3;
+}
+.MuiAppBar-colorDefault {
+  background-color: #212121 !important;
+  color: #c7c7c7 !important;
+}
+.PrivateTabIndicator-colorSecondary-5 {
+  background-color: white !important;
+}
+.app__roomLink {
+  margin: 30px;
+}
+.app__roomLink input {
+  width: 250px;
+  background: white;
+  padding: 6px;
+  height: 23px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.Main .MuiDivider-root {
+  height: 1px !important;
+  background-color: white !important;
+}
+.MuiBox-root {
+  padding: 5px !important;
+  margin-top: 47px !important;
+}
+.makeStyles-root-1 .MuiAppBar-positionStatic {
+  position: absolute !important;
+  top: 0px;
+}
+
+.flex__container {
+  display: flex;
+}
+/* .makeStyles-root-1 {
+  resize: both;
+  overflow: auto;
+} */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  border: none !important;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #bbbcbd;
+}
+.resizer {
+  width: 10px;
+  background: #9185b9;
+  cursor: ew-resize;
+  transition: 0.2s ease-in;
+}
+.resizer:hover {
+  background: #9185b9;
+  transition: 0.2s ease-in;
+}
+.app__bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background: #0c1021;
+}
+.app__TopLeft {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  margin-top: 0;
+}
+.ReactCodeMirror {
+  height: 100%;
+  overflow-y: auto;
+}
+.fill {
+  margin: 0;
+  height: 100% !important;
+}
+#scrollable-auto-tabpanel-0 {
+  height: 95.5% !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain;
+  overflow-x: hidden;
+  position: relative !important;
+}
+#scrollable-auto-tabpanel-1 {
+  height: 95.5% !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain;
+  overflow-x: hidden;
+  position: relative !important;
+}
+.app__chatIcon {
+  position: absolute !important;
+  right: 10px;
+  top: 10px;
+  z-index: 1002;
+}
+.leftApp {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.rightApp {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  background-color: #051e34;
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  border: 1px solid black;
+}
+.rightApp-none {
+  width: 70px;
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.rightApp__text-show {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: calc(100% - 47px);
+  justify-content: flex-end;
+}
+.rightApp__none {
+  display: none !important;
+}
+.MuiButton-root .MuiSvgIcon-root {
+  fill: white;
+  width: 1.5em;
+  height: 1.5em;
+}
+.rightApp__topRow {
+  display: flex;
+  justify-content: space-between;
+}
+.chatWidget {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.chat__input {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 1px solid black !important;
+}
+.chat__show {
+  background: white;
+  color: black;
+  padding: 10px;
+  margin: 0px;
+  height: 100%;
+  max-height: calc(100vh - 102px);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.chat__show div div {
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 70px;
+  margin: 5px;
+  width: fit-content;
+}
+.chat__show-end {
+  color: black;
+}
+.chat__show-start {
+  color: black;
+}
+.show__name {
+  font-weight: bold;
+  margin-bottom: 5px !important;
+  text-transform: capitalize;
+}
+.show__message {
+  margin-top: 5px !important;
+}
+.MuiAvatar-root {
+  border: 1px solid black !important;
+}
+
+.room {
+  position: relative;
+}
+.room button {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.room > h3 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+.local-participant {
+  text-align: center;
+  z-index: 100;
+  position: absolute;
+}
+.remote-participants {
+  z-index: 100;
+  position: absolute;
+  top: 50vh;
+}
+.participant {
+  padding: 10px;
+  border-radius: 6px;
+  height: 170px;
+  width: 200px;
+}
+.participant:last-child {
+  margin-right: 0;
+}
+.participant h3 {
+  text-align: center;
+  padding-bottom: 0.5em;
+  color: #fff;
+}
+
+video {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+video :hover {
+  cursor: pointer;
+}
+.makeStyles-root-1 .MuiAppBar-root {
+  z-index: 1;
+}
+.video__container {
+  position: relative;
+}
+.video__bar {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  height: 40px;
+  width: 200px;
+  bottom: 0px;
+  border-radius: 5px;
+  display: flex;
+}
+.video__button {
+  height: 40px !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+.nav__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.hide {
+  display: none;
+}
+.icon__close {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.icon__close :hover {
+  cursor: pointer;
+}
+.nav-tabs {
+  background: #0c1021 !important;
+  border: none !important;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.nav-tabs .nav-link {
+  border: 0;
+  margin-bottom: 0px;
+}
+.tab__pane {
+  height: 100%;
+  background: #0c1021;
+}
+.nav-item :hover {
+  border: none;
+  margin: 0;
+}
+.tab-content {
+  height: calc(100% - 40px) !important;
+}
+#myTab-tabpane-note {
+  width: calc(100% - 70px);
+  padding: 10px;
+}
+#white_container {
+  color: white;
+}
