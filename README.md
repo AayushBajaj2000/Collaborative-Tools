@@ -1,3 +1,7 @@
+## Live Demo
+
+The live demo can be seen here: https://code-1a9b0.web.app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
